@@ -27,13 +27,13 @@ java -jar Snake.jar
 
 Once you start the game, This following menu will appear:
 
-<img src="./screenshots/Snake_Menu.png" style="zoom:50%;" align="left" />
+<img src="https://github.com/ouahmedyasser/Snake2D/blob/main/screenshots/Snake_Menu.PNG?raw=true" style="zoom:50%;" align="left" />
 
 After that, Click the "Play" button to start the game. 
 
 If you obtain any errors when you try to run the game, please create an issue.
 
-<img src="./screenshots/Snake_Playing.png" style="zoom:75%;" align="left" />
+<img src="https://github.com/ouahmedyasser/Snake2D/blob/main/screenshots/Snake_Playing.PNG?raw=true" style="zoom:75%;" align="left" />
 
 You can use these keys to control the snake:
 
