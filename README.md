@@ -50,6 +50,8 @@ You can use these keys to control the snake:
 
 <img src="./screenshots/keys.png" style="zoom:75%;" />
 
+When game is over, press SPACE to return to main menu.
+
 ## ⚙️ Requirements
 
 All you need is installing Java in your device to run the game. Operating System does NOT really matter as long as you are able to install Java on it.

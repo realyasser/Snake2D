@@ -35,7 +35,7 @@ public class Game extends JPanel implements ActionListener  {
 
     private final Image wall;
     private final Image apple;
-    private Font PauseFont;
+    private Font PauseFont, scoreFont;
 
 
     private Timer t;
@@ -62,6 +62,7 @@ public class Game extends JPanel implements ActionListener  {
     public Game() throws IOException, FontFormatException {
 
         PauseFont = new Font("Arial", Font.BOLD, 35);
+        scoreFont = new Font("Arial", Font.PLAIN, 18);
         wall = new ImageIcon(getClass().getResource("/wall.png")).getImage();
         apple = new ImageIcon(getClass().getResource("/apple.png")).getImage();
 
@@ -111,6 +112,10 @@ public class Game extends JPanel implements ActionListener  {
             g.setFont(PauseFont);
             g.setColor(Color.RED);
             g.drawString("GAME OVER", (Window.width-g.getFontMetrics(PauseFont).stringWidth("GAME OVER"))/2, Tile+40);
+
+            g.setFont(scoreFont);
+            String scoretext = "Score: "+(SnakeSize-StartSize);
+            g.drawString(scoretext, (Window.width-g.getFontMetrics(scoreFont).stringWidth(scoretext))/2, Tile+80);
         }
 
     }
